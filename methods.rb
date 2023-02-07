@@ -12,7 +12,6 @@ def greet_with_default(name = "programmer")
 end
 
 def add(num1, num2)
-    puts num1 + num2
     num1 + num2
 end
 add(2, 4)
@@ -21,7 +20,6 @@ def halve(number)
     if number.class != Integer
         return nil
     end
-    puts number / 2
     number / 2
 end
 halve(4)
